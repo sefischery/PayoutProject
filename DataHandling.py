@@ -54,7 +54,7 @@ class DataHandler():
             print(errormsg)
 
 if __name__ == '__main__':
-    #print("hello world")
+    print("hello world")
     #datafile = DataHandler('D:\Dropbox\PayoutProject.xlsx')
     #datafile.PrintInformation()
     # use it like ordinary open like this:
