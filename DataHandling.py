@@ -55,9 +55,9 @@ class DataHandler():
 
 if __name__ == '__main__':
     print("hello world")
-    #datafile = DataHandler('D:\Dropbox\PayoutProject.xlsx')
-    #datafile.PrintInformation()
+    datafile = DataHandler('D:\Dropbox\PayoutProject.xlsx')
+    datafile.PrintInformation()
     # use it like ordinary open like this:
-    w = SafeWriter("filename", "w")
+    w = SafeWriter("filename.txt", "w")
     w.write("can be used among multiple threads")
     w.close()  # it is really important to close or the program would not end
