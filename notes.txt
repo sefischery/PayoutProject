@@ -1,0 +1,4 @@
+mainfile skal køre det for test af funktionalitet
+
+der skal laves en ny folder til tests n shit
+og så selvfølgelig implementere funktionalitet i de enkelte klasser
