@@ -10,7 +10,7 @@ class DataHandler():
         #self.csv_file = csv_file
         self.path_to_file = path_to_file
 
-    def __CheckIfCSVExists(self): #private
+    def _CheckIfCSVExists(self): #private
         #D:\Dropbox\PayoutProject.xlsx
         try:
             os.path.isfile(self.path_to_file)
@@ -19,7 +19,7 @@ class DataHandler():
             return ("File Does Not Exist!",False)
 
     def PrintInformation(self):
-        errormsg, fileexists = self.__CheckIfCSVExists()
+        errormsg, fileexists = self._CheckIfCSVExists()
         if fileexists:
             file = pd.read_excel(self.path_to_file)
             print(file)
